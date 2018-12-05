@@ -1,0 +1,68 @@
+{
+    "type": "array",
+    "400": {
+        "type": "string",
+        "example": "json mal formatado"
+    },
+    "200": {
+        "type": "string",
+        "example": "cadastro efetuado com sucesso"
+    },
+    "201": {
+        "type": "object",
+        "properties": {
+            "message": { "type": "string", "example": "cadastro efetuado com sucesso" }
+        }
+    },
+    "Clientes": {
+        "type": "object",
+        "properties": {
+            "id": { "type": "integer", "example": 48055 },
+            "nome": { "type": "string", "example": "Equipe Teste" },
+            "nomeFantasia": { "type": "string", "example": "Equipe Teste" },
+            "razaoSocial": { "type": "string", "example": "Equipe Teste" },
+            "cpf": { "type": "string", "example": "01149212020" },
+            "cnpj": { "type": "string", "example": "" },
+            "dataNascimento": { "type": "string", "example": "01/01/1980" },
+            "sexo": { "type": "string", "example": "Masculino" },
+            "email": { "type": "string", "example": "equipe.teste@f1solucoes.com.br" },
+            "telefone": {
+                "type": "object",
+                "properties": {
+                    "residencial": { "type": "string", "example": "(51) 3333-00000" },
+                    "celular": { "type": "string", "example": "" },
+                    "comercial1": { "type": "string", "example": "" },
+                    "comercial2": { "type": "string", "example": "" }
+                }
+            },
+            "inscricaoEstadual": { "type": "string", "example": "" },
+            "links": {
+                "type": "object",
+                "properties": {
+                    "self": { "type": "string", "example": "clientes" },
+                    "href": { "type": "string", "example": "http://localhost/f1webservices/public/api/front-api/clientes" },
+                    "method": { "type": "string", "example": "GET" }
+                }
+            }
+        }
+    },
+    "Enderecos": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "destinatario": { "type": "string", "example": "Equipe Teste" },
+                "id": { "type": "integer", "example": 65457 },
+                "endereco": { "type": "string", "example": "Avenida Unisinos" },
+                "numero": { "type": "string", "example": "305" },
+                "complemento": { "type": "string", "example": "" },
+                "bairro": { "type": "string", "example": "Cristo Rei" },
+                "cidade": { "type": "string", "example": "São Leopoldo" },
+                "estado": { "type": "string", "example": "RS" },
+                "pais": { "type": "string", "example": "Brasil" },
+                "cep": { "type": "string", "example": "93.022-750" }
+            }
+
+        }
+    }
+}

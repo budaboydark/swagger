@@ -1,0 +1,7 @@
+{
+    "type": "object",
+    "properties": {
+        "email": { "type": "string", "required": true, "example": "xxxx@gmail.CX.br" },
+        "password": { "type": "string", "required": true, "example": "teste123" }
+    }
+}

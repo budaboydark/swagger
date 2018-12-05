@@ -1,0 +1,129 @@
+{
+    "type": "array",
+    "Comentarios": {
+        "type": "object",
+        "properties": {
+            "comentarios": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": { "type": "integer", "example": 1 },
+                        "idProduto": { "type": "integer", "example": 265267 },
+                        "titulo": { "type": "string", "example": "Titulo" },
+                        "nome": { "type": "string", "example": "José" },
+                        "nota": { "type": "integer", "example": 5 },
+                        "exibir": { "type": "integer", "example": 1 },
+                        "cidade": { "type": "string", "example": "novo hamburgo" },
+                        "email": { "type": "string", "example": "jose@gase.com.br" },
+                        "data": { "type": "string", "example": "27/08/2009" },
+                        "descricao": { "type": "string", "example": "comentario" },
+                        "links": {
+                            "type": "object",
+                            "properties": {
+                                "self": { "type": "string", "example": "comentarios/{idProduto?}" },
+                                "href": { "type": "string", "example": "http://localhost/f1webservices/public/api/front-api/comentarios/265267" },
+                                "method": { "type": "string", "example": "GET" }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Avaliacao": {
+        "type": "object",
+        "properties": {
+            "avaliacao": {
+                "type": "object",
+                "properties": {
+                    "notaMaxima": { "type": "integer", "example": 5 },
+                    "media": { "type": "integer", "example": 5 },
+                    "quantidade": { "type": "integer", "example": 1 },
+                    "comentarios": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "integer",
+                                    "example": 1
+                                },
+                                "idProduto": {
+                                    "type": "integer",
+                                    "example": 265267
+                                },
+                                "titulo": {
+                                    "type": "string",
+                                    "example": "Titulo"
+                                },
+                                "nome": {
+                                    "type": "string",
+                                    "example": "José"
+                                },
+                                "nota": {
+                                    "type": "integer",
+                                    "example": 5
+                                },
+                                "exibir": {
+                                    "type": "integer",
+                                    "example": 1
+                                },
+                                "cidade": {
+                                    "type": "string",
+                                    "example": "novo hamburgo"
+                                },
+                                "email": {
+                                    "type": "string",
+                                    "example": "jose@gase.com.br"
+                                },
+                                "data": {
+                                    "type": "string",
+                                    "example": "27/08/2009"
+                                },
+                                "descricao": {
+                                    "type": "string",
+                                    "example": "comentario"
+                                },
+                                "links": {
+                                    "type": "object",
+                                    "properties": {
+                                        "self": {
+                                            "type": "string",
+                                            "example": "comentarios/{idProduto?}"
+                                        },
+                                        "href": {
+                                            "type": "string",
+                                            "example": "http://localhost/f1webservices/public/api/front-api/comentarios/265267"
+                                        },
+                                        "method": {
+                                            "type": "string",
+                                            "example": "GET"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "links": {
+                        "type": "object",
+                        "properties": {
+                            "self": {
+                                "type": "string",
+                                "example": "avaliacao/{idProduto?}"
+                            },
+                            "href": {
+                                "type": "string",
+                                "example": "http://localhost/f1webservices/public/api/front-api/avaliacao/575"
+                            },
+                            "method": {
+                                "type": "string",
+                                "example": "GET"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

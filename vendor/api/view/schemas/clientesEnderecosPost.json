@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "destinatario": { "type": "string", "example": "JUCIENY3" },
+        "cidade": { "type": "string", "example": "Sao Leopoldo", "required": true },
+        "bairro": { "type": "string", "example": "Cristo Rei", "required": true },
+        "endereco": { "type": "string", "example": "Av Unisinos2", "required": true },
+        "numero": { "type": "string", "example": "950", "required": true },
+        "cep": { "type": "string", "example": "94.022-750", "required": true },
+        "estado": { "type": "string", "example": "RS", "required": true }
+    }
+}

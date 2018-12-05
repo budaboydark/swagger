@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "pedido": {
+            "type": "object",
+            "properties": {
+                "produtos": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": { "type": "integer", "example": 12078, "required": true },
+                            "quantidade": { "type": "integer", "example": 2, "required": true }
+                        }
+                    }
+                },
+                "cep": { "type": "string", "example": "94858390", "required": false },
+                "frete": { "type": "integer", "example": 119, "required": false }
+            }
+        }
+    }
+}

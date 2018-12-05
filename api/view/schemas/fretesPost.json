@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "cep": { "type": "integer", "example": 94858390 },
+        "produtos": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "integer", "example": 12078 },
+                    "quantidade": { "type": "integer", "example": 2 }
+                }
+            }
+        }
+    }
+}

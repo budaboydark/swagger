@@ -1,0 +1,105 @@
+{
+    "type": "object",
+    "properties": {
+        "nomeFantasia": {
+            "type": "string",
+            "required": true,
+            "example": "Empresa Teste LTDA"
+        },
+        "razaoSocial": {
+            "type": "string",
+            "required": true,
+            "example": "Empresa Teste LTDA"
+        },
+        "responsavel": {
+            "type": "string",
+            "required": true,
+            "example": "Daniel"
+        },
+        "cnpj": {
+            "type": "string",
+            "required": true,
+            "example": "05005501000184"
+        },
+        "contribuinteIcms": {
+            "type": "string",
+            "required": false,
+            "example": "S"
+        },
+        "inscricaoEstadual": {
+            "type": "string",
+            "required": true,
+            "example": "987654321"
+        },
+        "inscricaoMunicipal": {
+            "type": "string",
+            "required": false,
+            "example": ""
+        },
+        "telefone": {
+            "type": "string",
+            "required": true,
+            "example": "5134458796"
+        },
+        "celular": {
+            "type": "string",
+            "required": false,
+            "example": "51992258496"
+        },
+        "email": {
+            "type": "string",
+            "required": true,
+            "example": "empresa.teste@teste.com.br"
+        },
+        "senha": {
+            "type": "string",
+            "required": true,
+            "example": "teste678"
+        },
+        "endereco": {
+            "type": "object",
+            "properties": {
+                "estado": {
+                    "type": "string",
+                    "required": true,
+                    "example": "RS"
+                },
+                "cidade": {
+                    "type": "string",
+                    "required": true,
+                    "example": "Porto Alegre"
+                },
+                "bairro": {
+                    "type": "string",
+                    "required": true,
+                    "example": "São Geraldo"
+                },
+                "endereco": {
+                    "type": "string",
+                    "required": true,
+                    "example": "rua mestre jaime"
+                },
+                "numero": {
+                    "type": "string",
+                    "required": true,
+                    "example": "205"
+                },
+                "complemento": {
+                    "type": "string",
+                    "required": false,
+                    "example": "apto 301"
+                },
+                "cep": {
+                    "type": "string",
+                    "required": true,
+                    "example": "94858390"
+                },
+                "referencia": {
+                    "type": "string",
+                    "required": false,
+                    "example": "Próximo avenida liberdade"
+                }
+            }
+        }
+    }
+}

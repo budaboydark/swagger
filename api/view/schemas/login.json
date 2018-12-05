@@ -1,0 +1,12 @@
+{
+    "type": "array",
+    "202": {
+        "type": "object",
+        "properties": {
+            "token": { "type": "string", "example": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImp0aSI6IjQzZGQ3MTdiNjliZmI5ZTY3ZDYxZWQ4NTM5YWZiZTA3NTVjMjY3ZDIifQ.eyJpc3MiOiJodHRwOlwv..." },
+            "email": { "type": "string", "example": "teste@teste.com.br" },
+            "nome": { "type": "string", "example": "Equipe Teste" },
+            "id": { "type": "integer", "example": 1 }
+        }
+    }
+}

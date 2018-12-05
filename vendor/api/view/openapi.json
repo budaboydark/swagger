@@ -1,0 +1,125 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Front Api",
+    "description": "Documentação API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://192.168.0.44:8080/f1webservices/public/api",
+      "description": "Optional server description, e.g. Main (production) server"
+    }
+  ],
+  "paths": {
+    "/configurar/usuarios/{id}": {
+      "get": {
+        "summary": "Lista um usuário",
+        "responses": {
+          "200": {
+            "description": "Sucesso",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "example": "multisom"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "example": 4
+                      },
+                      "username": {
+                        "type": "string",
+                        "example": "b2cmultisom"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "basicAuth": []
+          }
+        ],
+        "tags": [
+          "configurar"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Id do usuario",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "required": true
+          }
+        ]
+      }
+    },
+    "/configurar/usuarios": {
+      "get": {
+        "summary": "Lista todos usuários",
+        "tags": [
+          "configurar"
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "example": "multisom"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "example": 4
+                      },
+                      "username": {
+                        "type": "string",
+                        "example": "b2cmultisom"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "basicAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": []
+    }
+  ]
+}

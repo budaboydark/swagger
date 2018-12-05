@@ -1,0 +1,123 @@
+{
+    "type": "array",
+    "banners": {
+        "type": "object",
+        "properties": {
+            "banners": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "0": {
+                            "type": "object",
+                            "properties": {
+                                "id": { "type": "integer", "example": 462 },
+                                "tipo_banner_id": { "type": "integer", "example": 31 },
+                                "categorias_id": { "type": "array", "example": [11, 13], "items": { "type": "integer" } },
+                                "vitrines_id": { "type": "array", "example": [10, 12], "items": { "type": "integer" } },
+                                "extensao": { "type": "string", "example": "gif" },
+                                "nome": { "type": "string", "example": "Dia das Crianças" },
+                                "arquivo": { "type": "string", "example": "1537983833.gif" },
+                                "link": { "type": "string", "example": "https://www.multisom.com.br/products/vitrine/dia-das-criancas" },
+                                "html": { "type": "string", "example": "" },
+                                "exibe_home": { "type": "integer", "example": 1 },
+                                "localizacao": { "type": "string", "example": "topo" },
+                                "tipo_cadastro": { "type": "string", "example": "IMAGEM" },
+                                "ordem": { "type": "integer", "example": 0 },
+                                "newsletter": { "type": "integer", "example": 1 },
+                                "texto_inicial": { "type": "string", "example": "" },
+                                "exibicao_lojas": { "type": "string", "example": "padrao" },
+                                "exibe_somente_primeira_pagina": { "type": "integer", "example": 0 },
+                                "status": { "type": "integer", "example": 1 },
+                                "validade_inicial": { "type": "string", "example": "" },
+                                "validade_final": { "type": "string", "example": "" },
+                                "imagem": { "type": "string", "example": "https://localhost.f1s.me/resizer/banner/3000/500/false/false/1537983833.gif" },
+                                "tipo": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "example": 31
+                                        },
+                                        "nome": {
+                                            "type": "string",
+                                            "example": "Home Mobile"
+                                        },
+                                        "altura": {
+                                            "type": "string",
+                                            "example": "500"
+                                        },
+                                        "largura": {
+                                            "type": "string",
+                                            "example": "3000"
+                                        },
+                                        "posicao": {
+                                            "type": "string",
+                                            "example": "mobile"
+                                        },
+                                        "slide_show": {
+                                            "type": "string",
+                                            "example": "1"
+                                        },
+                                        "exibe_home": {
+                                            "type": "integer",
+                                            "example": 0
+                                        },
+                                        "exibe_categorias": {
+                                            "type": "integer",
+                                            "example": 0
+                                        },
+                                        "exibe_marcas": {
+                                            "type": "integer",
+                                            "example": 0
+                                        },
+                                        "exibe_vitrines": {
+                                            "type": "integer",
+                                            "example": 0
+                                        },
+                                        "exibe_lojas_especiais": {
+                                            "type": "integer",
+                                            "example": 0
+                                        }
+                                    }
+                                },
+                                "links": {
+                                    "type": "object",
+                                    "properties": {
+                                        "self": {
+                                            "type": "string",
+                                            "example": "banners/{id?}"
+                                        },
+                                        "href": {
+                                            "type": "string",
+                                            "example": "http://192.168.0.44:8080/f1webservices/public/api/front-api/banners/462"
+                                        },
+                                        "method": {
+                                            "type": "string",
+                                            "example": "GET"
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            },
+            "links": {
+                "type": "object",
+                "properties": {
+                    "self": { "type": "string", "example": "banners/{id?}" },
+                    "href": {
+                        "type": "string",
+                        "example": "http://192.168.0.44:8080/f1webservices/public/api/front-api/banners"
+                    },
+                    "method": {
+                        "type": "string",
+                        "example": "GET"
+                    }
+                }
+            }
+        }
+    }
+}

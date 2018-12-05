@@ -1,0 +1,100 @@
+{
+    "type": "array",
+    "menus": {
+        "type": "object",
+        "properties": {
+            "menu": {
+                "type": "object",
+                "properties": {
+                    "principal": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": { "type": "integer", "example": 27 },
+                                "nome": { "type": "string", "example": "Dia das Crianças" },
+                                "link": { "type": "string", "example": "https://www.multisom.com.br/products/vitrine/dia-das-criancas" },
+                                "produto": { "type": "string", "example": "" },
+                                "target": { "type": "string", "example": "_self" },
+                                "icones": { "type": "object", "properties": { "ativo": { "type": "boolean", "example": false } } },
+                                "submenu": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": { "type": "integer", "example": 169 },
+                                            "nome": { "type": "string", "example": "Acessórios de Áudio" },
+                                            "link": { "type": "string", "example": "categorias/audio/acessorios-de-audio" },
+                                            "slug": { "type": "string", "example": "acessorios-de-audio" }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "categorias": {
+                        "type": "object",
+                        "properties": {
+                            "selecionadas": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": { "type": "integer", "example": 24 },
+                                        "nome": { "type": "string", "example": "Áudio" },
+                                        "link": { "type": "string", "example": "categorias/audio" },
+                                        "slug": { "type": "string", "example": "audio" },
+                                        "submenu": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": { "type": "integer", "example": 169 },
+                                                    "nome": { "type": "string", "example": "Acessórios de Áudio" },
+                                                    "link": { "type": "string", "example": "categorias/audio/acessorios-de-audio" },
+                                                    "slug": { "type": "string", "example": "acessorios-de-audio" }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "padrao": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": { "type": "integer", "example": 24 },
+                                        "nome": { "type": "string", "example": "Áudio" },
+                                        "link": { "type": "string", "example": "categorias/audio" },
+                                        "slug": { "type": "string", "example": "audio" },
+                                        "submenu": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": { "type": "integer", "example": 169 },
+                                                    "nome": { "type": "string", "example": "Acessórios de Áudio" },
+                                                    "link": { "type": "string", "example": "categorias/audio/acessorios-de-audio" },
+                                                    "slug": { "type": "string", "example": "acessorios-de-audio" }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "links": {
+                        "type": "object",
+                        "properties": {
+                            "self": { "type": "string", "exampĺe": "menus" },
+                            "href": { "type": "string", "exampĺe": "http://localhost/f1webservices/api/front-api/menus" },
+                            "method": { "type": "string", "exampĺe": "GET" }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "array",
+    "redessociais": {
+        "type": "object",
+        "properties": {
+            "0": {
+                "type": "object",
+                "properties": {
+                    "nome": { "type": "string", "example": "Twitter" },
+                    "imagem": { "type": "string", "example": "/img/social/twitter.jpg" },
+                    "link": { "type": "string", "example": "https://twitter.com/MultisomOficial" }
+                }
+            },
+            "1": {
+                "type": "object",
+                "properties": {
+                    "nome": { "type": "string", "example": "Facebook" },
+                    "imagem": { "type": "string", "example": "/img/social/facebook.jpg" },
+                    "link": { "type": "string", "example": "https://www.facebook.com/MultisomOficial" }
+                }
+            }
+        }
+    }
+}

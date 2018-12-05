@@ -1,0 +1,22 @@
+{
+    "type": "array",
+    "Fretes": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "nome": { "type": "string", "example": "Transportadora" },
+                "codigo": { "type": "integer", "example": 24 },
+                "valor": { "type": "string", "example": "10,25" },
+                "prazo_entrega": { "type": "integer", "example": 3 },
+                "contingency": { "type": "string", "example": "N" },
+                "frete_marketplace": { "type": "integer", "example": 0 },
+                "faixa_cep": { "type": "integer", "example": 7999999 },
+                "mensagem": { "type": "string", "example": "Prazo de entrega à partir da aprovação do pedido..." },
+                "tabela_sistema": { "type": "integer", "example": 1 },
+                "dias_processamento": { "type": "integer", "example": 0 },
+                "nome_front": { "type": "string", "example": "Frete Normal" }
+            }
+        }
+    }
+}

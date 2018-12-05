@@ -1,0 +1,30 @@
+{
+    "type": "array",
+    "filtros": {
+        "type": "array",
+        "items": {
+            "properties": {
+                "path": {
+                    "type": "string",
+                    "example": "filtros/cordas"
+                },
+                "nome": {
+                    "type": "string",
+                    "example": "Cordas"
+                },
+                "id": {
+                    "type": "integer",
+                    "example": 769
+                },
+                "slug": {
+                    "type": "string",
+                    "example": "cordas"
+                },
+                "exibeFiltros": {
+                    "type": "integer",
+                    "example": 1
+                }
+            }
+        }
+    }
+}

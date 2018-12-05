@@ -1,0 +1,39 @@
+{
+    "type": "array",
+    "Pagamentos": {
+        "type": "object",
+        "properties": {
+            "pagamentos": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": { "type": "integer", "example": 167 },
+                        "nome": { "type": "string", "example": "REDE_AMEX" },
+                        "imagem": { "type": "string", "example": "/img/rede_amex.jpg" },
+                        "condicoes": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id_condpagto": { "type": "integer", "example": 247 },
+                                    "id_meiopagto": { "type": "integer", "example": 167 },
+                                    "parcelas_condpagto": { "type": "integer", "example": 1 },
+                                    "porcentagem": { "type": "string", "example": "0.0000" },
+                                    "parcela_minima": { "type": "string", "example": "0.00" },
+                                    "bcash_juros": { "type": "integer", "example": 0 },
+                                    "ativo": { "type": "string", "example": "S" },
+                                    "tipo_variacao": { "type": "integer", "example": 0 },
+                                    "habilita_2cartoes": { "type": "integer", "example": 0 },
+                                    "enviar_total_com_juros": { "type": "integer", "example": 0 },
+                                    "nome_parcela": { "type": "string", "example": "null" },
+                                    "codigo_exportacao": { "type": "string", "example": "" }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

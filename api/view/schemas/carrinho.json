@@ -1,0 +1,40 @@
+{
+    "type": "array",
+    "201": {
+        "type": "object",
+        "properties": {
+            "pedido": {
+                "type": "object",
+                "properties": {
+                    "valorProdutosAPrazo": { "type": "string", "example": "1890.00" },
+                    "valorProdutosAVista": { "type": "string", "example": "1708.00" },
+                    "valorDescontoProdutos": { "type": "float", "example": 0 },
+                    "quantidadeItens": { "type": "integer", "example": 2 },
+                    "valorTotalEmbalagens": { "type": "float", "example": 0 },
+                    "valorTotalAVista": { "type": "string", "example": "1733.44" },
+                    "valorTotalAPrazo": { "type": "string", "example": "1923.44" },
+                    "valorFrete": { "type": "string", "example": "25.44" },
+                    "valorNominalProdutos": { "type": "string", "example": "2088.00" },
+                    "produtos": { "type": "array", "items": {} },
+                    "opcaoFrete": {
+                        "type": "object",
+                        "properties": {
+                            "nome": { "type": "string", "example": "Sedex" },
+                            "codigo": { "type": "string", "example": "119" },
+                            "prazo_entrega": { "type": "integer", "example": 1 },
+                            "erro": { "type": "string", "example": "0" },
+                            "produtos": { "type": "array", "example": [], "items": {} },
+                            "transportadora": { "type": "string", "example": "" },
+                            "valor": { "type": "string", "example": "25,44" },
+                            "nome_admin": { "type": "string", "example": "" },
+                            "dias_processamento": { "type": "integer", "example": 0 },
+                            "nome_front": { "type": "string", "example": "Frete Expresso" }
+                        }
+                    },
+                    "numeroMaximoParcelas": { "type": "integer", "example": 12 },
+                    "valorParcela": { "type": "string", "example": "160.29" }
+                }
+            }
+        }
+    }
+}

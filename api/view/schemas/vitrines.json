@@ -1,0 +1,684 @@
+{
+    "type": "array",
+    "Vitrines": {
+        "type": "object",
+        "properties": {
+            "vitrines": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": { "type": "integer", "example": 269 },
+                        "link": { "type": "string", "example": "dia-das-criancas" },
+                        "nome": { "type": "string", "example": "Dia das Crianças" },
+                        "banners": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "integer",
+                                        "example": 134
+                                    },
+                                    "nome": {
+                                        "type": "string",
+                                        "example": "Lateral - Troca 7 dias"
+                                    },
+                                    "link": {
+                                        "type": "string",
+                                        "example": "https://www.multisom.com.br/trocas-e-devolucoes"
+                                    },
+                                    "imagem": {
+                                        "type": "string",
+                                        "example": "https://localhost.f1s.me/resizer/banner/200/600/false/false/1532696239.png"
+                                    },
+                                    "posicao": {
+                                        "type": "string",
+                                        "example": "lateral"
+                                    },
+                                    "localizacao": {
+                                        "type": "string",
+                                        "example": "lateral"
+                                    }
+                                }
+                            }
+                        },
+                        "lista": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "integer",
+                                    "example": 159
+                                },
+                                "qtd_itens": {
+                                    "type": "integer",
+                                    "example": 170
+                                },
+                                "itens_exibir": {
+                                    "type": "integer",
+                                    "example": 28
+                                },
+                                "produtos": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "integer",
+                                                "example": 12078
+                                            },
+                                            "detalhe": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "tipo": {
+                                                        "type": "string",
+                                                        "example": "NORMAL"
+                                                    },
+                                                    "peso": {
+                                                        "type": "integer",
+                                                        "example": 700
+                                                    },
+                                                    "pesoCubico": {
+                                                        "type": "integer",
+                                                        "example": 2
+                                                    },
+                                                    "largura": {
+                                                        "type": "string",
+                                                        "example": "15.00"
+                                                    },
+                                                    "altura": {
+                                                        "type": "string",
+                                                        "example": "15.00"
+                                                    },
+                                                    "comprimento": {
+                                                        "type": "string",
+                                                        "example": "15.00"
+                                                    },
+                                                    "codigo": {
+                                                        "type": "string",
+                                                        "example": "43540"
+                                                    },
+                                                    "EAN": {
+                                                        "type": "string",
+                                                        "example": "7892509093675"
+                                                    },
+                                                    "codigoBarras": {
+                                                        "type": "string",
+                                                        "example": "78925090936753456"
+                                                    },
+                                                    "garantia": {
+                                                        "type": "integer",
+                                                        "example": 12
+                                                    },
+                                                    "tags": {
+                                                        "type": "string",
+                                                        "example": "43540, celular samsung, samsung j5 prime, galaxy j5 prime, j5 prime, g570, linha prime, j5,"
+                                                    },
+                                                    "linkAlternativo": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "tipoCompra": {
+                                                        "type": "string",
+                                                        "example": "Estoque"
+                                                    },
+                                                    "status": {
+                                                        "type": "string",
+                                                        "example": "Ativo"
+                                                    },
+                                                    "situacao": {
+                                                        "type": "string",
+                                                        "example": "avise"
+                                                    },
+                                                    "situacaoMensagem": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "nome": {
+                                                        "type": "string",
+                                                        "example": "Celular Samsung Galaxy J5 Prime G570 Rosa - 4G, Dual Chip, Tela 5'', 32GB, Câmera 13MP e 5MP "
+                                                    },
+                                                    "descricao": {
+                                                        "type": "string",
+                                                        "example": "<p>paragrafo</p>"
+                                                    },
+                                                    "quantidadeDisponivel": {
+                                                        "type": "integer",
+                                                        "example": 0
+                                                    },
+                                                    "quantidadePedidos": {
+                                                        "type": "integer",
+                                                        "example": 185
+                                                    },
+                                                    "dataCadastro": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    }
+                                                }
+                                            },
+                                            "download": {},
+                                            "categorias": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "0": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "type": "integer",
+                                                                    "example": 24
+                                                                },
+                                                                "nome": {
+                                                                    "type": "string",
+                                                                    "example": "Celulares e Telefonia"
+                                                                },
+                                                                "slug": {
+                                                                    "type": "string",
+                                                                    "example": "celulares-e-telefonia"
+                                                                },
+                                                                "path": {
+                                                                    "type": "string",
+                                                                    "example": "categorias/celulares-e-telefonia"
+                                                                },
+                                                                "exibeFiltros": {
+                                                                    "type": "integer",
+                                                                    "example": 1
+                                                                }
+                                                            }
+                                                        },
+                                                        "1": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "type": "integer",
+                                                                    "example": 128
+                                                                },
+                                                                "nome": {
+                                                                    "type": "string",
+                                                                    "example": "Celulares"
+                                                                },
+                                                                "slug": {
+                                                                    "type": "string",
+                                                                    "example": "celulares"
+                                                                },
+                                                                "path": {
+                                                                    "type": "string",
+                                                                    "example": "categorias/celulares-e-telefonia/celulares"
+                                                                },
+                                                                "exibeFiltros": {
+                                                                    "type": "integer",
+                                                                    "example": 1
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "filtros": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "0": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "type": "integer",
+                                                                    "example": 897
+                                                                },
+                                                                "nome": {
+                                                                    "type": "string",
+                                                                    "example": "Celulares e Telefonia"
+                                                                },
+                                                                "slug": {
+                                                                    "type": "string",
+                                                                    "example": "celulares-e-telefonia"
+                                                                },
+                                                                "path": {
+                                                                    "type": "string",
+                                                                    "example": "filtros/celulares-e-telefonia"
+                                                                },
+                                                                "exibeFiltros": {
+                                                                    "type": "integer",
+                                                                    "example": 1
+                                                                }
+                                                            }
+                                                        },
+                                                        "1": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "type": "integer",
+                                                                    "example": 898
+                                                                },
+                                                                "nome": {
+                                                                    "type": "string",
+                                                                    "example": "Cores"
+                                                                },
+                                                                "slug": {
+                                                                    "type": "string",
+                                                                    "example": "cores"
+                                                                },
+                                                                "path": {
+                                                                    "type": "string",
+                                                                    "example": "filtros/celulares-e-telefonia/cores"
+                                                                },
+                                                                "exibeFiltros": {
+                                                                    "type": "integer",
+                                                                    "example": 1
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "dadosExtras": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "campo1": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "campo2": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "campo3": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    }
+                                                }
+                                            },
+                                            "dadosLivro": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "subtitulo": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "isbn": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "isbn13": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "idioma": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "volume": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "paginas": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "edicao": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "dataEdicao": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "dataLancamento": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "encadernacao": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "resenha": {
+                                                        "type": "string",
+                                                        "example": ""
+                                                    },
+                                                    "capaDura": {
+                                                        "type": "integer",
+                                                        "example": 0
+                                                    }
+                                                }
+                                            },
+                                            "colaboradores": {},
+                                            "fabricante": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "integer",
+                                                        "example": 19
+                                                    },
+                                                    "nome": {
+                                                        "type": "string",
+                                                        "example": "Samsung"
+                                                    },
+                                                    "imagem": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "primaria": {
+                                                                "type": "boolean",
+                                                                "example": false
+                                                            },
+                                                            "secundaria": {
+                                                                "type": "boolean",
+                                                                "example": false
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "midia": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "imagens": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "0": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "id": {
+                                                                            "type": "integer",
+                                                                            "example": 20986
+                                                                        },
+                                                                        "listagem": {
+                                                                            "type": "string",
+                                                                            "example": "https://localhost.f1s.me/resizer/view/175/115/false/true/20986.jpg"
+                                                                        },
+                                                                        "detalhe": {
+                                                                            "type": "string",
+                                                                            "example": "https://localhost.f1s.me/resizer/view/175/115/false/true/20986.jpg"
+                                                                        },
+                                                                        "real": {
+                                                                            "type": "string",
+                                                                            "example": "https://localhost.f1s.me/resizer/view/false/false/true/false/20986.jpg"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "1": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "id": {
+                                                                            "type": "integer",
+                                                                            "example": 20987
+                                                                        },
+                                                                        "listagem": {
+                                                                            "type": "string",
+                                                                            "example": "https://localhost.f1s.me/resizer/view/175/115/false/true/20987.jpg"
+                                                                        },
+                                                                        "detalhe": {
+                                                                            "type": "string",
+                                                                            "example": "https://localhost.f1s.me/resizer/view/175/115/false/true/20987.jpg"
+                                                                        },
+                                                                        "real": {
+                                                                            "type": "string",
+                                                                            "example": "https://localhost.f1s.me/resizer/view/false/false/true/false/20987.jpg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "selos": {},
+                                                    "videos": {},
+                                                    "arquivos": {}
+                                                }
+                                            },
+                                            "precos": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "de": {
+                                                        "type": "float",
+                                                        "example": 1044
+                                                    },
+                                                    "por": {
+                                                        "type": "float",
+                                                        "example": 949
+                                                    },
+                                                    "avista": {
+                                                        "type": "float",
+                                                        "example": 854
+                                                    },
+                                                    "numeroParcelas": {
+                                                        "type": "float",
+                                                        "example": 12
+                                                    },
+                                                    "valorParcela": {
+                                                        "type": "float",
+                                                        "example": 71.17
+                                                    }
+                                                }
+                                            },
+                                            "avaliacao": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "notaMaxima": {
+                                                        "type": "float",
+                                                        "example": 0
+                                                    },
+                                                    "media": {
+                                                        "type": "float",
+                                                        "example": 0
+                                                    },
+                                                    "quantidade": {
+                                                        "type": "integer",
+                                                        "example": 0
+                                                    },
+                                                    "comentarios": {},
+                                                    "links": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "self": {
+                                                                "type": "string",
+                                                                "example": "avaliacao/{idProduto}"
+                                                            },
+                                                            "href": {
+                                                                "type": "string",
+                                                                "example": "http://localhost/f1webservices/api/front-api/avaliacao/12078"
+                                                            },
+                                                            "method": {
+                                                                "type": "string",
+                                                                "example": "GET"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "modeloVariacao": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "variacao": {
+                                                        "type": "string",
+                                                        "example": "Rosa"
+                                                    },
+                                                    "variacaoPrincipal": {
+                                                        "type": "string",
+                                                        "example": "N"
+                                                    },
+                                                    "variacoes": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "0": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "idProduto": {
+                                                                            "type": "integer",
+                                                                            "example": 12076
+                                                                        },
+                                                                        "variacao": {
+                                                                            "type": "string",
+                                                                            "example": "Preto"
+                                                                        },
+                                                                        "variacaoPrincipal": {
+                                                                            "type": "string",
+                                                                            "example": "N"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "1": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "idProduto": {
+                                                                            "type": "integer",
+                                                                            "example": 12077
+                                                                        },
+                                                                        "variacao": {
+                                                                            "type": "string",
+                                                                            "example": "Dourado"
+                                                                        },
+                                                                        "variacaoPrincipal": {
+                                                                            "type": "string",
+                                                                            "example": "N"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "compreTambem": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "0": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "idProduto": {
+                                                                    "type": "integer",
+                                                                    "example": 6121
+                                                                },
+                                                                "idProdutoGradePai": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                },
+                                                                "classificacaoItem": {
+                                                                    "type": "string",
+                                                                    "example": "produto"
+                                                                },
+                                                                "idItemGrade": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                }
+                                                            }
+                                                        },
+                                                        "1": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "idProduto": {
+                                                                    "type": "integer",
+                                                                    "example": 9333
+                                                                },
+                                                                "idProdutoGradePai": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                },
+                                                                "classificacaoItem": {
+                                                                    "type": "string",
+                                                                    "example": "produto"
+                                                                },
+                                                                "idItemGrade": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "itensSimilares": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "0": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "idProduto": {
+                                                                    "type": "integer",
+                                                                    "example": 6121
+                                                                },
+                                                                "idProdutoGradePai": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                },
+                                                                "classificacaoItem": {
+                                                                    "type": "string",
+                                                                    "example": "produto"
+                                                                },
+                                                                "idItemGrade": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                }
+                                                            }
+                                                        },
+                                                        "1": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "idProduto": {
+                                                                    "type": "integer",
+                                                                    "example": 9333
+                                                                },
+                                                                "idProdutoGradePai": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                },
+                                                                "classificacaoItem": {
+                                                                    "type": "string",
+                                                                    "example": "produto"
+                                                                },
+                                                                "idItemGrade": {
+                                                                    "type": "integer",
+                                                                    "example": null
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "links": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "self": {
+                                                        "type": "string",
+                                                        "example": "produtos/{id}"
+                                                    },
+                                                    "href": {
+                                                        "type": "string",
+                                                        "example": "http://localhost/f1webservices/api/front-api/produtos/12078"
+                                                    },
+                                                    "method": {
+                                                        "type": "string",
+                                                        "example": "GET"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "links": {
+                "type": "object",
+                "properties": {
+                    "self": {
+                        "type": "string",
+                        "example": "vitrines/{id?}?local={local?}&slug={slug?}&page={page?}"
+                    },
+                    "href": { "type": "string", "example": "http://localhost/f1webservices/api/front-api/vitrines/269" },
+                    "method": { "type": "string", "example": "GET" }
+                }
+            }
+        }
+    }
+}

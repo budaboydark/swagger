@@ -1,0 +1,82 @@
+{
+    "type": "array",
+    "Pedidos": {
+        "type": "object",
+        "properties": {
+            "current_page": { "type": "integer", "example": 1 },
+            "pedidos": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": { "type": "integer", "example": 52019 },
+                        "dados": {
+                            "type": "object",
+                            "properties": {
+                                "numero": { "type": "integer", "example": 52019 },
+                                "data": { "type": "string", "example": "30/09/2015" },
+                                "status": { "type": "string", "example": "Cancelado" },
+                                "desconto": { "type": "string", "example": "8,02" },
+                                "frete": { "type": "string", "example": "8,02" },
+                                "preco": {
+                                    "type": "object",
+                                    "properties": {
+                                        "por": { "type": "string", "example": "3,00" },
+                                        "de": { "type": "string", "example": "11,02" }
+                                    }
+                                }
+                            }
+                        },
+                        "entrega": {
+                            "type": "object",
+                            "properties": {
+                                "endereco": { "type": "string", "example": "Avenida Unisinos" },
+                                "numero": { "type": "string", "example": "305" },
+                                "bairro": { "type": "string", "example": "São joão batista" },
+                                "cidade": { "type": "string", "example": "são leopoldo" },
+                                "cep": { "type": "string", "example": "93.022-000" },
+                                "complemento": { "type": "string", "example": "" },
+                                "estado": { "type": "string", "example": "RS" }
+                            }
+                        },
+                        "pagamento": {
+                            "type": "object",
+                            "properties": {
+                                "link": { "type": "string", "example": "http://linkboleto.com.br/8991" },
+                                "nome": { "type": "string", "example": "Stelo - visa" },
+                                "valor": { "type": "string", "example": "3,00" },
+                                "parcela": { "type": "string", "example": "3" }
+                            }
+                        },
+                        "produtos": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {}
+                            }
+                        }
+                    }
+                }
+
+            },
+            "last_page": { "type": "integer", "example": 1 },
+            "path": { "type": "string", "example": "localhost/f1webservices/public/api/front-api/pedidos/52019?page=1" },
+            "prev_page_url": { "type": "string", "example": "" },
+            "prev_page": { "type": "integer", "example": 0 },
+            "next_page": { "type": "integer", "example": 0 },
+            "to": { "type": "integer", "example": 1 },
+            "from": { "type": "integer", "example": 4 },
+            "next_page_url": { "type": "string", "example": "" },
+            "per_page": { "type": "integer", "example": 10 },
+            "has_more_pages": { "type": "boolean", "example": false },
+            "links": {
+                "type": "object",
+                "properties": {
+                    "self": { "type": "string", "example": "pedidos/{id?}" },
+                    "href": { "type": "string", "example": "http://localhost/f1webservices/public/api/front-api/pedidos/52019" },
+                    "method": { "type": "string", "exmaple": "GET" }
+                }
+            }
+        }
+    }
+}

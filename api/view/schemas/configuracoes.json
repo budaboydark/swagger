@@ -1,0 +1,1536 @@
+{
+    "type": "array",
+    "configuracoes": {
+        "type": "object",
+        "properties": {
+            "dadosLoja": {
+                "type": "object",
+                "properties": {
+                    "emailSAC": { "type": "string", "example": "falecom@loja.com.br" },
+                    "nomeLoja": { "type": "string", "example": "Loja Teste" },
+                    "enderecoLoja": { "type": "string", "example": "LOJA TESTE COMÉRCIO IMPORTAÇÃO LTDA - Rua Hoff, 255 Floresta - 90220-170 - Porto Alegre – RS.CNPJ: 00.000.000.0001-00. Todos os Direitos Reservados" },
+                    "telefoneSAC": { "type": "string", "example": "(51) 9999.9999" },
+                    "horarioAtendimento": { "type": "string", "example": "" },
+                    "emailDuvidaProduto": { "type": "string", "example": "" },
+                    "exibirWhatsapp": { "type": "string", "example": "1" },
+                    "numeroWhatsapp": { "type": "string", "example": "(51) 9999-99999" },
+                    "enderecoGoogleMaps": { "type": "string", "example": "LOJA TESTE - Rua Hoff, 255 Floresta - 90220-170 - Porto Alegre – RS CNPJ: 00.000.000.0001-00. Todos os Direitos Reservados" },
+                    "fraseRodape": { "type": "string", "example": "" },
+                    "favicon": { "type": "string", "example": "14993644720186.png" },
+                    "razaoSocial": { "type": "string", "example": "LOJA TESTE LTDA" },
+                    "cnpj": { "type": "string", "example": "00.000.000.0001-00" },
+                    "nomeFantasia": { "type": "string", "example": "LOJA TESTE LTDA" }
+                }
+            },
+            "modulos": {
+                "type": "object",
+                "properties": {
+                    "md_carrinhos_abandonados": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Carrinhos Abandonados" }
+                        }
+                    },
+                    "md_seo_basico": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "SEO Básico" }
+                        }
+                    },
+                    "md_seo_avancado": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "SEO Avançado" }
+                        }
+                    },
+                    "md_dicas": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": false },
+                            "nome": { "type": "string", "example": "Dicas" }
+                        }
+                    },
+                    "md_cursos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": false },
+                            "nome": { "type": "string", "example": "Cursos" }
+                        }
+                    },
+                    "md_noticias": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": false },
+                            "nome": { "type": "string", "example": "Notícias" }
+                        }
+                    },
+                    "md_eventos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": false },
+                            "nome": { "type": "string", "example": "Eventos" }
+                        }
+                    },
+                    "md_integracao_site": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": false },
+                            "nome": { "type": "string", "example": "Integração Site" }
+                        }
+                    },
+                    "md_comparadores_preco": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Comparadores de Preço" }
+                        }
+                    },
+                    "md_gerador_newsletter": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Gerador de Newsletter" }
+                        }
+                    },
+                    "md_categoria_avancada": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Categoria Avançada" }
+                        }
+                    },
+                    "md_categorias_filtros": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Módulo Filtro Parametric" }
+                        }
+                    },
+                    "md_fcontrol": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Módulo FControl" }
+                        }
+                    },
+                    "md_clear_sale": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Módulo ClearSale" }
+                        }
+                    },
+                    "md_estoque_deposito": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": { "type": "boolean", "example": true },
+                            "nome": { "type": "string", "example": "Módulo Estoque - Depósito" }
+                        }
+                    },
+                    "md_one_step_checkout": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo One Step Chekout"
+                            }
+                        }
+                    },
+                    "md_ceps_ibge": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo CEPs do IBGE"
+                            }
+                        }
+                    },
+                    "md_prazos_entrega": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Prazos de Entrega"
+                            }
+                        }
+                    },
+                    "md_prazo_entrega_transpaulo": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Prazo de Entrega - TransPaulo"
+                            }
+                        }
+                    },
+                    "md_alcada_de_vendas": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Alçada de Vendas"
+                            }
+                        }
+                    },
+                    "modulo_restricao_edicao_produtos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Restrição de Edição de Produtos"
+                            }
+                        }
+                    },
+                    "md_tele_vendas": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Tele-Vendas"
+                            }
+                        }
+                    },
+                    "md_cursos_noticias": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Cursos e Eventos"
+                            }
+                        }
+                    },
+                    "md_garantia_estendida": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Garantia Estendida"
+                            }
+                        }
+                    },
+                    "md_totvs_infoar": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo TOTVS - InfoAr"
+                            }
+                        }
+                    },
+                    "md_categorias_conteudos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Categorias de Conteúdos"
+                            }
+                        }
+                    },
+                    "md_banners_avancado": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Banners Avançados"
+                            }
+                        }
+                    },
+                    "md_frete_especifico": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Frete específico por produto"
+                            }
+                        }
+                    },
+                    "md_duvida_produto": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Dúvidas dos produtos"
+                            }
+                        }
+                    },
+                    "md_define_aviseme": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Avise-me forçado"
+                            }
+                        }
+                    },
+                    "md_preco_canal": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Preço por Canal"
+                            }
+                        }
+                    },
+                    "md_banner_html": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Gerenciamento de Banners HTML"
+                            }
+                        }
+                    },
+                    "md_cnab_bradesco": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo CNAB (Bradesco)"
+                            }
+                        }
+                    },
+                    "md_biblioteca_arquivos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Biblioteca de Arquivos"
+                            }
+                        }
+                    },
+                    "md_superpay_dois_cartoes": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Pagamento Dois Cartões - SuperPay"
+                            }
+                        }
+                    },
+                    "md_modelo_variacao": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Modelos e Variações"
+                            }
+                        }
+                    },
+                    "md_marketplace_b2w": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace B2W"
+                            }
+                        }
+                    },
+                    "md_marketplace_extra": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace CNova"
+                            }
+                        }
+                    },
+                    "md_plune": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Integração com o Plune"
+                            }
+                        }
+                    },
+                    "md_bling": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Integração Bling"
+                            }
+                        }
+                    },
+                    "md_exporta_eris": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Exportar para o Eris"
+                            }
+                        }
+                    },
+                    "md_produto_secundario": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Produto secundário"
+                            }
+                        }
+                    },
+                    "md_fcontrol_file": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo FControl por File"
+                            }
+                        }
+                    },
+                    "md_buscape_api": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Integração com API do Buscapé"
+                            }
+                        }
+                    },
+                    "md_multiloja_integrada": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Multiloja Integrada"
+                            }
+                        }
+                    },
+                    "md_multiloja_integrador": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Integrador Multiloja"
+                            }
+                        }
+                    },
+                    "md_ebit": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Integração com EBIT"
+                            }
+                        }
+                    },
+                    "md_jamef": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Transportadora Jamef"
+                            }
+                        }
+                    },
+                    "md_sim_frete": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Sim frete"
+                            }
+                        }
+                    },
+                    "md_jadlog": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Transportadora Jadlog"
+                            }
+                        }
+                    },
+                    "md_total_express": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Transportadora Total Express"
+                            }
+                        }
+                    },
+                    "md_moip": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Pagamentos MOIP"
+                            }
+                        }
+                    },
+                    "md_trabalhe_conosco": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Trabalhe Conosco"
+                            }
+                        }
+                    },
+                    "md_televendas_b2c": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Televendas B2C"
+                            }
+                        }
+                    },
+                    "md_filiais_lojas": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Filiais/Lojas"
+                            }
+                        }
+                    },
+                    "md_redirecionameto_301": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Redirecionamento 301"
+                            }
+                        }
+                    },
+                    "md_depoimentos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Depoimentos"
+                            }
+                        }
+                    },
+                    "md_lojas_especiais": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Lojas Especiais"
+                            }
+                        }
+                    },
+                    "md_professores": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Professores"
+                            }
+                        }
+                    },
+                    "md_menu_2": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Menu e Permissões"
+                            }
+                        }
+                    },
+                    "md_marketplace_walmart": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Walmart"
+                            }
+                        }
+                    },
+                    "md_desconto_progressivo": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Desconto Progressivo"
+                            }
+                        }
+                    },
+                    "md_origem": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Origens de Pedidos"
+                            }
+                        }
+                    },
+                    "md_comercializacao_revendas": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Comercialização de produtos para revendas"
+                            }
+                        }
+                    },
+                    "md_itau_shopline": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Itaú Shopline"
+                            }
+                        }
+                    },
+                    "md_cursos_neo": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Cursos NEO"
+                            }
+                        }
+                    },
+                    "md_parceiros_afiliados": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Parceiros/Afiliados"
+                            }
+                        }
+                    },
+                    "md_marketplace_dafiti": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Dafiti/Kanui"
+                            }
+                        }
+                    },
+                    "md_marketplace_netshoes": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Netshoes"
+                            }
+                        }
+                    },
+                    "md_paginas": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Páginas"
+                            }
+                        }
+                    },
+                    "md_integracao_sap": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Integração SAP"
+                            }
+                        }
+                    },
+                    "md_cadastro_complementar": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Cadastro Complementar"
+                            }
+                        }
+                    },
+                    "md_marketplace_mercado_livre": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Mercado Livre"
+                            }
+                        }
+                    },
+                    "md_restricao_compra_produtos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Restrição de compras de produtos"
+                            }
+                        }
+                    },
+                    "md_antispam": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Antispam"
+                            }
+                        }
+                    },
+                    "md_stelo": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de pagamento Stelo"
+                            }
+                        }
+                    },
+                    "md_boleto_pos_faturado": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Boleto pós faturado"
+                            }
+                        }
+                    },
+                    "md_mercado_pago": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Mercado Pago"
+                            }
+                        }
+                    },
+                    "md_provador_virtual": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Provador Virtual"
+                            }
+                        }
+                    },
+                    "md_proview": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Proview"
+                            }
+                        }
+                    },
+                    "md_marketplace_amazon": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Amazon"
+                            }
+                        }
+                    },
+                    "md_intelipost": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Transportadora Intelipost"
+                            }
+                        }
+                    },
+                    "md_integracao_via_logos": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Integração Via Logos"
+                            }
+                        }
+                    },
+                    "md_status_entrega_correios": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Consulta status de entregas - Correios"
+                            }
+                        }
+                    },
+                    "md_integracao_acs": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Integração ACS"
+                            }
+                        }
+                    },
+                    "md_marketplace_magazine_luiza": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Magazine Luiza"
+                            }
+                        }
+                    },
+                    "md_effinity": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Effinity"
+                            }
+                        }
+                    },
+                    "md_cielo_15": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Cielo WS 1.5"
+                            }
+                        }
+                    },
+                    "md_cielo_30": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Cielo WS 3.0"
+                            }
+                        }
+                    },
+                    "md_marketplace_b2w_skyhub": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace B2W SkyHub"
+                            }
+                        }
+                    },
+                    "md_lista_de_presentes": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Lista de Presentes"
+                            }
+                        }
+                    },
+                    "md_creditos_em_compras": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Créditos em compras(Lista de presentes)"
+                            }
+                        }
+                    },
+                    "md_marketplace_buscape": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Buscapé"
+                            }
+                        }
+                    },
+                    "md_associado": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Associados"
+                            }
+                        }
+                    },
+                    "md_loja_hub": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Loja HUB"
+                            }
+                        }
+                    },
+                    "md_censo_urgencia": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Promoções: Ativar censo de urgência"
+                            }
+                        }
+                    },
+                    "md_tramontina": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Tramontina"
+                            }
+                        }
+                    },
+                    "md_expert_sender": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Expert Sender"
+                            }
+                        }
+                    },
+                    "google_customer_reviews": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Integração com Google Avaliações"
+                            }
+                        }
+                    },
+                    "md_marketplace_infracommerce": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Infra Commerce"
+                            }
+                        }
+                    },
+                    "md_pergamum": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Pergamum"
+                            }
+                        }
+                    },
+                    "md_convenios": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Convênios com Instituições"
+                            }
+                        }
+                    },
+                    "md_Marketplace_infoar": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Info Ar"
+                            }
+                        }
+                    },
+                    "md_marketplace_estante_virtual": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Estante Virtual"
+                            }
+                        }
+                    },
+                    "md_stelo_30": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo pagamento Stelo WS 3.0"
+                            }
+                        }
+                    },
+                    "md_alternativa_erp": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de Integração com ERP Alternativa"
+                            }
+                        }
+                    },
+                    "md_newsletter_interesses": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Interesse em Newsletter"
+                            }
+                        }
+                    },
+                    "md_pagseguro": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de pagamento PagSeguro"
+                            }
+                        }
+                    },
+                    "md_bloqueio_f1": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Bloqueio F1"
+                            }
+                        }
+                    },
+                    "md_rede": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": true
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo de pagamento Rede"
+                            }
+                        }
+                    },
+                    "md_venda_produtos_usados": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Venda de Produtos Usados"
+                            }
+                        }
+                    },
+                    "md_links_para_parceiros": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Links para Parceiros"
+                            }
+                        }
+                    },
+                    "md_rd_station": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "RD Station Marketing"
+                            }
+                        }
+                    },
+                    "md_mandae_frete": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Mandaê Logística"
+                            }
+                        }
+                    },
+                    "md_marketplace_carrefour": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Carrefour"
+                            }
+                        }
+                    },
+                    "md_marketplace_demandware": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Demandware"
+                            }
+                        }
+                    },
+                    "md_maquina_cartao": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Máquin de Cartão"
+                            }
+                        }
+                    },
+                    "md_api_f1": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo que ativa API F1"
+                            }
+                        }
+                    },
+                    "md_marketplace_f1": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace F1"
+                            }
+                        }
+                    },
+                    "md_marketplace_livrarialeitura": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace F1 Livraria Leitura"
+                            }
+                        }
+                    },
+                    "md_marketplace_saraiva": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Marketplace Saraiva"
+                            }
+                        }
+                    },
+                    "md_promocoes_marketplace": {
+                        "type": "object",
+                        "properties": {
+                            "ativo": {
+                                "type": "boolean",
+                                "example": false
+                            },
+                            "nome": {
+                                "type": "string",
+                                "example": "Módulo Promoções Marketplace"
+                            }
+                        }
+                    }
+                }
+            },
+            "links": {
+                "type": "object",
+                "properties": {
+                    "self": { "type": "string", "example": "configuracoes" },
+                    "href": { "type": "string", "example": "http://localhost/f1webservices/api/front-api/configuracoes" },
+                    "method": { "type": "string", "example": "GET" }
+                }
+            }
+        }
+    }
+}

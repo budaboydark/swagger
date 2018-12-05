@@ -1,0 +1,19 @@
+{
+    "type": "array",
+    "FAQ": {
+        "type": "object",
+        "properties": {
+            "conteudos": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": { "type": "integer", "example": 2 },
+                        "pergunta": { "type": "string", "example": "Paguei o boleto e ainda não recebi a confirmação de aprovado..." },
+                        "resposta": { "type": "string", "example": "<p>Pagamento do&nbsp;boleto pode&nbsp;levar at&eacute; um dia &uacute;til para ser&nbsp;confirmado em nosso&nbsp;sistema.</p>\r\n" }
+                    }
+                }
+            }
+        }
+    }
+}

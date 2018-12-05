@@ -1,0 +1,90 @@
+{
+    "type": "object",
+    "properties": {
+        "nome": {
+            "type": "string",
+            "required": true,
+            "example": "juvenal"
+        },
+        "cpf": {
+            "type": "string",
+            "required": true,
+            "example": "01595806048"
+        },
+        "sexo": {
+            "type": "string",
+            "example": "Masculino",
+            "required": true
+        },
+        "dataNascimento": {
+            "type": "string",
+            "example": "02/03/1980",
+            "required": false
+        },
+        "telefone": {
+            "type": "string",
+            "required": true,
+            "example": "5134432121"
+        },
+        "celular": {
+            "type": "string",
+            "required": false,
+            "example": "51993432121"
+        },
+        "email": {
+            "type": "string",
+            "required": true,
+            "example": "juvenal@teste.com.br"
+        },
+        "senha": {
+            "type": "string",
+            "required": true,
+            "example": "teste356"
+        },
+        "endereco": {
+            "type": "object",
+            "properties": {
+                "estado": {
+                    "type": "string",
+                    "required": true,
+                    "example": "RS"
+                },
+                "cidade": {
+                    "type": "string",
+                    "required": true,
+                    "example": "Porto Alegre"
+                },
+                "bairro": {
+                    "type": "string",
+                    "required": true,
+                    "example": "São Geraldo"
+                },
+                "endereco": {
+                    "type": "string",
+                    "required": true,
+                    "example": "rua mestre jaime"
+                },
+                "numero": {
+                    "type": "string",
+                    "required": true,
+                    "example": "205"
+                },
+                "complemento": {
+                    "type": "string",
+                    "required": false,
+                    "example": "apto 301"
+                },
+                "cep": {
+                    "type": "string",
+                    "required": true,
+                    "example": "94858390"
+                },
+                "referencia": {
+                    "type": "string",
+                    "required": false,
+                    "example": "próximo avenida liberdade"
+                }
+            }
+        }
+    }
+}

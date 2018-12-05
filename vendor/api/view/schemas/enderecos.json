@@ -1,0 +1,48 @@
+{
+    "type": "array",
+    "Estados": {
+        "type": "object",
+        "properties": {
+            "estados": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "example": "['Acre','AC']",
+                    "items": {}
+                }
+            }
+        }
+    },
+    "Ceps": {
+        "type": "object",
+        "properties": {
+            "endereco": {
+                "type": "object",
+                "properties": {
+                    "endereco": { "type": "string", "example": "Rua Tenente Eugênio Duarte" },
+                    "cidade": { "type": "string", "example": "Alvorada" },
+                    "estado": { "type": "string", "example": "RS" },
+                    "bairro": { "type": "string", "example": "Jardim Algarve" }
+                }
+            },
+            "links": {
+                "type": "object",
+                "properties": {
+                    "self": { "type": "string", "example": "enderecos?cep={cep}" },
+                    "href": { "type": "string", "example": "http://192.168.0.44:8080/f1webservices/public/api/front-api/enderecos?cep=94858390" },
+                    "method": { "type": "string", "example": "GET" }
+                }
+            }
+        }
+    },
+    "Cidades": {
+        "type": "object",
+        "properties": {
+            "cidades": {
+                "type": "array",
+                "example": "['Aceguá','Água Santa','Águas Claras']",
+                "items": {}
+            }
+        }
+    }
+}
